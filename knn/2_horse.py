@@ -20,7 +20,6 @@
 # Негласное правило порядка параметров в функциях: 1- категория, 2 - X, 3 - Y
 
 import csv
-from itertools import combinations # для combinations
 from math import sqrt
 # Либы для отрисовки
 import pylab as pl
@@ -176,6 +175,7 @@ k = machine.loo_find_k(0.000000001)
 accuracy = machine.calculateAccuracy(k)
 print "k по LOO:", k
 print "accuracy:", accuracy
+
 
 machine.show_train_data()
 print machine.classifyKNN(machine.train_data_rows, machine.test_data_rows, k)
