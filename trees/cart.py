@@ -99,6 +99,7 @@ def main():
 
     clf = tree.DecisionTreeClassifier()
     clf = clf.fit(X, Y)
+    print clf.tree_.impurity
     dot_data = tree.export_graphviz(clf, out_file=None, feature_names=data['header'],
                                     filled=True, rounded=True, special_characters=True)
     graph = graphviz.Source(dot_data)

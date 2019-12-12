@@ -72,10 +72,10 @@ edge [fontname=helvetica] ;
 33 -> 34 ;
 35 [label=<gini = 0.0<br/>samples = 2<br/>value = [0, 2]>, fillcolor="#399de5ff"] ;
 33 -> 35 ;
-36 [label=<abdominocentesis appearance &le; 1.5<br/>gini = 0.5<br/>samples = 2<br/>value = [1, 1]>, fillcolor="#e5813900"] ;
+36 [label=<outcome &le; 1.0<br/>gini = 0.5<br/>samples = 2<br/>value = [1, 1]>, fillcolor="#e5813900"] ;
 24 -> 36 ;
-37 [label=<gini = 0.0<br/>samples = 1<br/>value = [1, 0]>, fillcolor="#e58139ff"] ;
+37 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]>, fillcolor="#399de5ff"] ;
 36 -> 37 ;
-38 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]>, fillcolor="#399de5ff"] ;
+38 [label=<gini = 0.0<br/>samples = 1<br/>value = [1, 0]>, fillcolor="#e58139ff"] ;
 36 -> 38 ;
 }
